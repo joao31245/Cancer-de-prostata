@@ -13,7 +13,7 @@ img{
 }
 
 body {
-    background: #e9eef7;
+    background: #ffe9f3;
     color: #222;
     -webkit-font-smoothing: antialiased;
     display: grid;
@@ -33,15 +33,13 @@ body {
 }
 /*Menu*/
 .grid-section .grupo-alimentos {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .menu {
     grid-column: 1 /6;
     padding-top: 1rem 0;
-    background: #e3e8ff;
+    background: #fad5e5;
 }
 .menu::after{
     display: block;
@@ -69,19 +67,19 @@ body {
     letter-spacing: .1em;
 }
 .menu li a:hover{
-    border: 1px rgb(8, 80, 180) solid;
-    background: #97a3d6;
+    border: 1px #f86bad solid;
+    background: #fcbcda;
     border-radius: 4%
 }
 .ativo {
-    border: 1px rgb(8, 80, 180) solid;
-    background: #cad0eb;
+    border: 1px #f86bad solid;
+    background: #fcbcda;
     border-radius: 4%;
 }
 /*--------- Introdução ---------*/
 .intro {
     grid-column: 1/6;
-    background-image: url("../img/intro4.jpg");
+    background-image: url("https://telemedicinamorsch.com.br/wp-content/uploads/2020/10/Como-cl%C3%ADnicas-podem-aderir-ao-outubro-rosa.jpeg");
     background-repeat: no-repeat;
     background-position: center right;
     width: 100%;
@@ -89,7 +87,7 @@ body {
     background-size: cover;
 } 
 .grid-texto{
-    grid-column: 1/5;
+    grid-column: 7/7;
     display: grid;
     grid-template-columns: minmax(200px,1fr) 90px 1fr;
 }
@@ -134,7 +132,7 @@ body {
 .grupo-alimentos h2:before{
     display: inline-block;
     content: '';
-    background: #393c97;
+    background: #fc75b4;
     margin-right: 6px;
     width: 18px;
     height: 10px;
@@ -148,7 +146,7 @@ body {
     width: 18px;
 }
 .grupo-lista::-webkit-scrollbar-thumb{
-    background:#393c97;
+    background:#fc75b4;
     border-left: 4px solid #fff;
     border-right: 4px solid #fff;
 }
@@ -183,7 +181,7 @@ body {
 .faq-lista dt:before {
     display: inline-block;
     content: '';
-    background: #393c97;
+    background: #fc75b4;
     margin-right: 6px;
     width: 18px;
     height: 10px;
@@ -214,7 +212,7 @@ body {
 .dados li::before{
     display: inline-block;
     content: '';
-    background: #393c97;
+    background: #fc75b4;
     margin-right: 6px;
     width: 18px;
     height: 10px;
@@ -223,7 +221,7 @@ body {
 .copy {
     grid-column: 1/6;
     width: 100%;
-    background-color: #393c97;
+    background-color: #f86bad;
     padding: 20px 0;
 }
 .copy p{
